@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textPlayerPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Player points"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/textPCPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Skynet points"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/PlayerPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="OO"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:id="@+id/PCPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="OO"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/winner"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn7" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn8" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:onClick="clcbtn9" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:onClick="restart"
+/>
+
+
+
+</RelativeLayout>

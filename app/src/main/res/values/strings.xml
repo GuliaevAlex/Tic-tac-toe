@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic-tac-toe</string>
+    <string name="winner_message">Congratulation! \nYou Win!</string>
+    <string name="computer_win">Sorry, computer Win</string>
+    <string name="restart">Restart</string>
+    <string name="dead_heat">Dead Heat</string>
+</resources>
